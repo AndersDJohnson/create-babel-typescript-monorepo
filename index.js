@@ -23,6 +23,7 @@ createMonorepo("babel-typescript-monorepo", {
       "typescript",
     ],
     package: {
+      main: "dist/index.js",
       keywords: ["create-babel-typescript-monorepo"],
       scripts: {
         start: "node .",
