@@ -16,6 +16,6 @@
     "index.js"
   ],
   "dependencies": {
-    "base-create-monorepo": "^0.0.4"
+    "base-create-monorepo": "^0.1.0"
   }
 }
