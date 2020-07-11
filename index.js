@@ -3,7 +3,6 @@
 const createMonorepo = require("base-create-monorepo");
 
 createMonorepo("babel-typescript-monorepo", {
-  devDependencies: ["lerna"],
   package: {
     keywords: ["create-babel-typescript-monorepo"],
     scripts: {
