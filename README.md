@@ -5,8 +5,10 @@ Like `create-react-app` and [create-babel-typescript](https://github.com/AndersD
 Create an app in a new `./my-app` directory:
 
 ```shell
-$ npm init babel-typescript-monorepo my-app
+$ npm init babel-typescript-monorepo my-app my-first-package,my-second-package
 ```
+
+See [base-create-monorepo](https://github.com/AndersDJohnson/base-create-monorepo) for all CLI options.
 
 [<kbd>copy</kbd>](https://copyhaste.com/c/?t=npm%20init%20babel-typescript-monorepo%20my-app)
 
