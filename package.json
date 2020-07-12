@@ -1,6 +1,6 @@
 {
   "name": "create-babel-typescript-monorepo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Create Lerna monorepo with Babel + TypeScript configuration.",
   "main": "index.js",
   "bin": "index.js",
