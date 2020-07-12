@@ -31,7 +31,7 @@ createMonorepo({
       keywords: ["create-babel-typescript-monorepo"],
       scripts: {
         start: "node .",
-        build: "babel -x .ts,.tsx src --out-dir dist",
+        build: "babel --root-mode upward -x .ts,.tsx src --out-dir dist",
         "build:watch": "npm run build -- --watch",
         "build:types": "tsc --emitDeclarationOnly",
         "build:types:watch": "npm run build:types -- --watch",
