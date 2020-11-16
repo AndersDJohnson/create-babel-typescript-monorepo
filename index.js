@@ -27,6 +27,7 @@ createMonorepo({
     dependencies: ["@babel/runtime"],
     package: {
       main: "dist/index.js",
+      files: ["dist"],
       types: "dist/index.d.ts",
       keywords: ["create-babel-typescript-monorepo"],
       scripts: {
